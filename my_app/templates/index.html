@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+     <h1>Bienvenue dans ce jeu de Yahtzee!</h1>
+    
+    <p>Au bout de 3 lancers, il faut obtenir la meilleure
+combinaison possible étant donnés les 5 dés :</p>
+    
+    <ol>
+	
+	<li>Yahtzee : 5 dés identiques</li>
+  <li>Grande Suite :5 valeurs consécutives</li>
+  <li>Petite Suite :4 valeurs consécutives</li>
+  <li>Carré: 4 dés identiques</li>
+  <li>Brelan : 3dés identiques</li>
+	</ol>
+  <div>
+			
+        <a href="{{ url_for('login') }}">Pour jouer cliquer sur "Jouer au Yathzee"ou ici</a>
+		</div>
+{% endblock %}

@@ -2,7 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-import mon_app.views
+import my_app.views
 
 import os
 

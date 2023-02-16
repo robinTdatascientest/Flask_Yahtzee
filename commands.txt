@@ -1,0 +1,9 @@
+python3 -m venv env
+\path\to\env\scripts\activate
+pip install -r requirements.txt
+--app option => location of the main file 
+flask --app app run 
+## Externally Visible Server
+flask -app app run --host=0.0.0.0
+
+deactivate 

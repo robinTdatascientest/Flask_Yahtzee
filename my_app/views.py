@@ -1,11 +1,11 @@
 from flask import Flask,render_template, url_for, request,session,flash,redirect
 
 
-from mon_app import app
+from my_app import app
 #On importe les inputs
-from mon_app.forms import LoginForm
+from my_app.forms import LoginForm
 #On importe le jeu
-from mon_app.yahtzee import Yahtzee
+from my_app.yahtzee import Yahtzee
 #On instancie le jeu
 Jeu_test = Yahtzee()
 

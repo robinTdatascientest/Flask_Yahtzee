@@ -1,5 +1,6 @@
 python3 -m venv env
 \path\to\env\scripts\activate
+source env_api/bin/activate
 pip install -r requirements.txt
 --app option => location of the main file 
 flask --app app run 
